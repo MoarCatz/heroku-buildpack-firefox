@@ -9,7 +9,7 @@ CACHE_DIR=$2
 ENV_DIR=$3
 
 # config
-VERSION=52.0.2
+VERSION=53.0.2
 LANG=en-US
 PLATFORM=linux64
 
