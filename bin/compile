@@ -33,8 +33,6 @@ echo "-----> Extracting Firefox binaries to ${BUILD_DIR}/vendor/${ARCHIVE_NAME}"
 mkdir -p $CACHE_DIR/$ARCHIVE_NAME
 mkdir -p $BUILD_DIR/vendor
 tar jxf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR
-tar xvf geckodriver-v0.19.1-linux64.tar.gz
-mv geckodriver $BUILD_DIR/vendor/
 mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/
 
 echo "-----> exporting PATH"
